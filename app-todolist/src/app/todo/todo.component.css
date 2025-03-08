@@ -1,0 +1,84 @@
+/* Add a background image */
+body {
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-notebook-with-list-desk_23-2148938724.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Center the "Angular" heading */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(26, 36, 124);
+  font-weight: bold;
+}
+
+/* Apply blur effect to the To-Do container */
+.todo-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style input field */
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: none;
+}
+
+/* Style buttons */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style task list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style remove button */
+li button {
+  margin-left: 20px;
+  background-color: #f44336;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
